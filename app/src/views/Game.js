@@ -2,6 +2,7 @@ import React from 'react';
 import './Game.css'
 import Board from '../components/Board';
 
+// Adjacent JSX elements must be wrapped in an enclosing tag
 function calculateWinner(squares) {
     const lines = [
       [0, 1, 2],
